@@ -1,2 +1,12 @@
-package PACKAGE_NAME;public class Cat {
+
+public class Cat {
+    private int age;
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getAge() {
+        return age;
+    }
 }
